@@ -1,0 +1,72 @@
+@startuml
+
+
+interface YandexClient {
+    QueryResponse query(String query)
+}
+
+class SearchController {
+    private Search searchOperation;
+
+    Response search(List<String> queries)
+}
+
+interface Search {
+    Map<String, Integer> invoke(SearchRequest request);
+}
+
+interface DataLoader {
+    List<SearchResult> load(List<String> queryWords);
+}
+
+interface Calculator<T> {
+    List<CalculatedRow> calculate(List<T> results)
+}
+
+class SearchRequest {
+    private List<String> queries
+}
+
+class SearchResult {
+    private String domain;
+    private String url;
+    private String title;
+    private String headline;
+}
+
+class CalculatedRow {
+    private List<String> groupBy;
+    private Integer count;
+}
+
+class BusinessRuleDecorator implements Search {
+    private Search inner;
+
+    Map<String, Integer> invoke(SearchRequest request);
+}
+
+class SearchOperation implements Search {
+    private DataLoader dataLoader;
+    private Calculator Calculator;
+
+    Map<String, Integer> invoke(SearchRequest request);
+}
+
+class CommonDataLoader implements DataLoader {
+    private YandexClient yandexClient;
+
+    List<SearchResult> load(List<String> queryWords);
+}
+
+class DomainCalculator implements Calculator {
+    List<CalculatedRow> calculate(List<SearchResult> results)
+}
+
+SearchOperation *-- DataLoader
+SearchOperation *-- Calculator
+
+CommonDataLoader *-- YandexClient
+
+SearchController *-- Search
+
+@enduml
