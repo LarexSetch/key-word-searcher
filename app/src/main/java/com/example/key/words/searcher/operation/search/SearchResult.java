@@ -6,8 +6,6 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public final class SearchResult {
-    private final String domain;
     private final String url;
-    private final String title;
-    private final String headline;
+    private final String query;
 }

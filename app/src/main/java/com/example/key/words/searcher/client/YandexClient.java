@@ -24,27 +24,27 @@ public interface YandexClient {
         private Response response;
 
         @Getter
-        static class Response {
+        public static class Response {
             @XmlElement(name = "results")
             private Results results;
 
             @Getter
-            static class Results {
+            public static class Results {
                 @XmlElements({@XmlElement(name = "grouping")})
                 private List<Grouping> groupings;
 
                 @Getter
-                static class Grouping {
+                public static class Grouping {
                     @XmlElements({@XmlElement(name = "group")})
                     private List<Group> groups;
 
                     @Getter
-                    static class Group {
+                    public static class Group {
                         @XmlElements({@XmlElement(name = "doc")})
                         private List<Doc> docs;
 
                         @Getter
-                        static class Doc {
+                        public static class Doc {
                             @XmlElement(name = "domain")
                             private String domain;
                             @XmlElement(name = "url")
