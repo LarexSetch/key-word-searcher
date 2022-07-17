@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/search/xml(.*)"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "search.xml",
+    "headers": {
+      "Content-Type": "application/xml"
+    }
+  }
+}

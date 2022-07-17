@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<yandexsearch version="1.0">
+    <request>
+        <query>
+            yandex
+        </query>
+        <page>
+            0
+        </page>
+        <sortby order="ascending" priority="no">
+            tm
+        </sortby>
+        <maxpassages>
+            1
+        </maxpassages>
+        <groupings>
+            <groupby attr="" mode="flat" groups-on-page="10" docs-in-group="1" curcateg="-1"/>
+        </groupings>
+    </request>
+    <response date="20220717T103746">
+        <reqid>
+            1658054266587349-3924213982189884226-sas2-0599-sas-l7-balancer-8080-BAL-31
+        </reqid>
+        <found priority="phrase">
+            25737488
+        </found>
+        <found priority="strict">
+            25737488
+        </found>
+        <found priority="all">
+            25737488
+        </found>
+        <found-human>
+            Нашлось 26 млн ответов
+        </found-human>
+        <is-local>
+            no
+        </is-local>
+        <results>
+            <grouping attr="" mode="flat" groups-on-page="10" docs-in-group="1" curcateg="-1">
+                <page first="1" last="10">
+                    0
+                </page>
+                <group>
+                    <doccount>
+                        1
+                    </doccount>
+                    <relevance priority="all"/>
+                    <doc id="ZAA77F89D46220FF1">
+                        <relevance priority="all"/>
+                        <saved-copy-url>
+                            https://yandexwebcache.net/yandbtm?fmode=inject&amp;tm=1658054266&amp;tld=ru&amp;lang=ru&amp;la=1658054144&amp;text=yandex&amp;url=https%3A//music.yandex.ru/%3Freqid%3D444537139165260732140973196082642627&amp;l10n=ru&amp;mime=html&amp;sign=7cd5a63666de5a5b539f845d0acc9728&amp;keyno=0
+                        </saved-copy-url>
+                        <url>
+                            https://music.yandex.ru/?reqid=444537139165260732140973196082642627
+                        </url>
+                        <domain>
+                            music.yandex.ru
+                        </domain>
+                        <title>
+                            <hlword>
+                                Яндекс
+                            </hlword>
+                            Музыка — собираем музыку и подкасты для вас
+                        </title>
+                        <modtime>
+                            20220717T133546
+                        </modtime>
+                        <size>
+                            994
+                        </size>
+                        <charset>
+                            utf-8
+                        </charset>
+                        <mime-type>
+                            text/html
+                        </mime-type>
+                        <passages>
+                            <passage>
+                                Персональные рекомендации, подборки на любой случай, подкасты обо всём на свете и музыкальные новинки — с
+                                <hlword>
+                                    Яндекс
+                                </hlword>
+                                Музыкой всегда есть что послушать!
+                            </passage>
+                        </passages>
+                        <properties>
+                            <_PassagesType>
+                                0
+                            </_PassagesType>
+                            <lang>
+                                ru
+                            </lang>
+                        </properties>
+                    </doc>
+                </group>
+                <group>
+                    <doccount>
+                        1
+                    </doccount>
+                    <relevance priority="all"/>
+                    <doc id="ZAA5C35E9A294123E">
+                        <relevance priority="all"/>
+                        <saved-copy-url>
+                            https://yandexwebcache.net/yandbtm?fmode=inject&amp;tm=1658054266&amp;tld=ru&amp;la=1658054144&amp;text=yandex&amp;url=https%3A//zen.yandex.ru/embed/vyhe55wdPlRU&amp;l10n=ru&amp;mime=html&amp;sign=e75208377825c59eed5f5917a659ecd7&amp;keyno=0
+                        </saved-copy-url>
+                        <url>
+                            https://zen.yandex.ru/embed/vyhe55wdPlRU
+                        </url>
+                        <domain>
+                            zen.yandex.ru
+                        </domain>
+                        <title>
+                            (*・ω・)ﾉ ставь плюсик и лайкусик
+                        </title>
+                        <modtime>
+                            20220717T133536
+                        </modtime>
+                        <size>
+                            65
+                        </size>
+                        <charset>
+                            utf-8
+                        </charset>
+                        <mime-type>
+                            text/html
+                        </mime-type>
+                        <properties>
+                            <_PassagesType>
+                                0
+                            </_PassagesType>
+                        </properties>
+                    </doc>
+                </group>
+                <group>
+                    <doccount>
+                        1
+                    </doccount>
+                    <relevance priority="all"/>
+                    <doc id="Z0C4E305E9E839D2B">
+                        <relevance priority="all"/>
+                        <saved-copy-url>
+                            https://yandexwebcache.net/yandbtm?fmode=inject&amp;tm=1658054266&amp;tld=ru&amp;lang=ru&amp;la=1658054144&amp;text=yandex&amp;url=https%3A//music.yandex.ru/%3Freqid%3D89576344316580535776792238252033561%26reqid%3D8957634431658053577984766729673924&amp;l10n=ru&amp;mime=html&amp;sign=5cd8f634353ef4f1287056e60f6913e5&amp;keyno=0
+                        </saved-copy-url>
+                        <url>
+                            https://music.yandex.ru/?reqid=89576344316580535776792238252033561&amp;reqid=8957634431658053577984766729673924
+                        </url>
+                        <domain>
+                            music.yandex.ru
+                        </domain>
+                        <title>
+                            <hlword>
+                                Яндекс
+                            </hlword>
+                            Музыка — собираем музыку и подкасты для вас
+                        </title>
+                        <modtime>
+                            20220717T133535
+                        </modtime>
+                        <size>
+                            999
+                        </size>
+                        <charset>
+                            utf-8
+                        </charset>
+                        <mime-type>
+                            text/html
+                        </mime-type>
+                        <passages>
+                            <passage>
+                                Персональные рекомендации, подборки на любой случай, подкасты обо всём на свете и музыкальные новинки — с
+                                <hlword>
+                                    Яндекс
+                                </hlword>
+                                Музыкой всегда есть что послушать!
+                            </passage>
+                        </passages>
+                        <properties>
+                            <_PassagesType>
+                                0
+                            </_PassagesType>
+                            <lang>
+                                ru
+                            </lang>
+                        </properties>
+                    </doc>
+                </group>
+                <group>
+                    <doccount>
+                        1
+                    </doccount>
+                    <relevance priority="all"/>
+                    <doc id="Z11E6AFA79EF3C5D1">
+                        <relevance priority="all"/>
+                        <saved-copy-url>
+                            https://yandexwebcache.net/yandbtm?fmode=inject&amp;tm=1658054266&amp;tld=ru&amp;lang=ru&amp;la=1658054144&amp;text=yandex&amp;url=https%3A//zen.yandex.ru/id/625f11bec5139937a9fa2536&amp;l10n=ru&amp;mime=html&amp;sign=5386313a262d1f72312e84488801c41b&amp;keyno=0
+                        </saved-copy-url>
+                        <url>
+                            https://zen.yandex.ru/id/625f11bec5139937a9fa2536
+                        </url>
+                        <domain>
+                            zen.yandex.ru
+                        </domain>
+                        <title>
+                            Кусочек Сочи | Дзен
+                        </title>
+                        <headline>
+                            Что-то пошло не так и мы не смогли загрузить данные. Давайте попробуем ещё раз?
+                        </headline>
+                        <modtime>
+                            20220717T133524
+                        </modtime>
+                        <size>
+                            212
+                        </size>
+                        <charset>
+                            utf-8
+                        </charset>
+                        <mime-type>
+                            text/html
+                        </mime-type>
+                        <properties>
+                            <_PassagesType>
+                                0
+                            </_PassagesType>
+                            <lang>
+                                ru
+                            </lang>
+                        </properties>
+                    </doc>
+                </group>
+                <group>
+                    <doccount>
+                        1
+                    </doccount>
+                    <relevance priority="all"/>
+                    <doc id="Z0FAD037DE4065B63">
+                        <relevance priority="all"/>
+                        <saved-copy-url>
+                            https://yandexwebcache.net/yandbtm?fmode=inject&amp;tm=1658054266&amp;tld=ru&amp;lang=ru&amp;la=1658054144&amp;text=yandex&amp;url=https%3A//music.yandex.ru/%3Freqid%3D89576344316580535776792238252033561&amp;l10n=ru&amp;mime=html&amp;sign=6339cb0e591e12ef2f3846ae660fde64&amp;keyno=0
+                        </saved-copy-url>
+                        <url>
+                            https://music.yandex.ru/?reqid=89576344316580535776792238252033561
+                        </url>
+                        <domain>
+                            music.yandex.ru
+                        </domain>
+                        <title>
+                            <hlword>
+                                Яндекс
+                            </hlword>
+                            Музыка — собираем музыку и подкасты для вас
+                        </title>
+                        <modtime>
+                            20220717T133514
+                        </modtime>
+                        <size>
+                            994
+                        </size>
+                        <charset>
+                            utf-8
+                        </charset>
+                        <mime-type>
+                            text/html
+                        </mime-type>
+                        <passages>
+                            <passage>
+                                Персональные рекомендации, подборки на любой случай, подкасты обо всём на свете и музыкальные новинки — с
+                                <hlword>
+                                    Яндекс
+                                </hlword>
+                                Музыкой всегда есть что послушать!
+                            </passage>
+                        </passages>
+                        <properties>
+                            <_PassagesType>
+                                0
+                            </_PassagesType>
+                            <lang>
+                                ru
+                            </lang>
+                        </properties>
+                    </doc>
+                </group>
+                <group>
+                    <doccount>
+                        1
+                    </doccount>
+                    <relevance priority="all"/>
+                    <doc id="Z286E2027B874014D">
+                        <relevance priority="all"/>
+                        <saved-copy-url>
+                            https://yandexwebcache.net/yandbtm?fmode=inject&amp;tm=1658054266&amp;tld=ru&amp;lang=ru&amp;la=1658054144&amp;text=yandex&amp;url=https%3A//music.yandex.ru/users/nphne-6xxjaf3z/playlists&amp;l10n=ru&amp;mime=html&amp;sign=497c51cb08b02e5402fbd2701dc31837&amp;keyno=0
+                        </saved-copy-url>
+                        <url>
+                            https://music.yandex.ru/users/nphne-6xxjaf3z/playlists
+                        </url>
+                        <domain>
+                            music.yandex.ru
+                        </domain>
+                        <title>
+                            <hlword>
+                                Яндекс
+                            </hlword>
+                            Музыка
+                        </title>
+                        <modtime>
+                            20220717T133508
+                        </modtime>
+                        <size>
+                            252
+                        </size>
+                        <charset>
+                            utf-8
+                        </charset>
+                        <mime-type>
+                            text/html
+                        </mime-type>
+                        <passages>
+                            <passage>
+                                Сервис
+                                <hlword>
+                                    Яндекс
+                                </hlword>
+                                Музыка может содержать информацию, не предназначенную для несовершеннолетних. © 2022 ООО «
+                                <hlword>
+                                    Яндекс
+                                </hlword>
+                                Медиасервисы».
+                            </passage>
+                        </passages>
+                        <properties>
+                            <_PassagesType>
+                                0
+                            </_PassagesType>
+                            <lang>
+                                ru
+                            </lang>
+                        </properties>
+                    </doc>
+                </group>
+                <group>
+                    <doccount>
+                        1
+                    </doccount>
+                    <relevance priority="all"/>
+                    <doc id="Z067E2E6D07EB7282">
+                        <relevance priority="all"/>
+                        <saved-copy-url>
+                            https://yandexwebcache.net/yandbtm?fmode=inject&amp;tm=1658054266&amp;tld=ru&amp;lang=ru&amp;la=1658054144&amp;text=yandex&amp;url=https%3A//music.yandex.ru/users/Egorik198615/playlists&amp;l10n=ru&amp;mime=html&amp;sign=694433697a2fbade938855dd3806a42f&amp;keyno=0
+                        </saved-copy-url>
+                        <url>
+                            https://music.yandex.ru/users/Egorik198615/playlists
+                        </url>
+                        <domain>
+                            music.yandex.ru
+                        </domain>
+                        <title>
+                            <hlword>
+                                Яндекс
+                            </hlword>
+                            Музыка
+                        </title>
+                        <modtime>
+                            20220717T133455
+                        </modtime>
+                        <size>
+                            246
+                        </size>
+                        <charset>
+                            utf-8
+                        </charset>
+                        <mime-type>
+                            text/html
+                        </mime-type>
+                        <passages>
+                            <passage>
+                                Сервис
+                                <hlword>
+                                    Яндекс
+                                </hlword>
+                                Музыка может содержать информацию, не предназначенную для несовершеннолетних. © 2022 ООО «
+                                <hlword>
+                                    Яндекс
+                                </hlword>
+                                Медиасервисы».
+                            </passage>
+                        </passages>
+                        <properties>
+                            <_PassagesType>
+                                0
+                            </_PassagesType>
+                            <lang>
+                                ru
+                            </lang>
+                        </properties>
+                    </doc>
+                </group>
+                <group>
+                    <doccount>
+                        1
+                    </doccount>
+                    <relevance priority="all"/>
+                    <doc id="Z56E76D67274B4BAB">
+                        <relevance priority="all"/>
+                        <saved-copy-url>
+                            https://yandexwebcache.net/yandbtm?fmode=inject&amp;tm=1658054266&amp;tld=ru&amp;lang=ru&amp;la=1658054144&amp;text=yandex&amp;url=https%3A//music.yandex.ru/%23!/search%3Ftext%3Djay%2520hardway%2520%2526amp%253B%2520martin%2520garrix%2520%25E2%2580%2593%2520wizard&amp;l10n=ru&amp;mime=html&amp;sign=00e2247d5b3b1f6771b76ed68ce9caf5&amp;keyno=0
+                        </saved-copy-url>
+                        <url>
+                            https://music.yandex.ru/#!/search?text=jay%20hardway%20%26amp%3B%20martin%20garrix%20%E2%80%93%20wizard
+                        </url>
+                        <domain>
+                            music.yandex.ru
+                        </domain>
+                        <title>
+                            <hlword>
+                                Яндекс
+                            </hlword>
+                            Музыка — собираем музыку и подкасты для вас
+                        </title>
+                        <modtime>
+                            20220717T133343
+                        </modtime>
+                        <size>
+                            1078
+                        </size>
+                        <charset>
+                            utf-8
+                        </charset>
+                        <mime-type>
+                            text/html
+                        </mime-type>
+                        <passages>
+                            <passage>
+                                Персональные рекомендации, подборки на любой случай, подкасты обо всём на свете и музыкальные новинки — с
+                                <hlword>
+                                    Яндекс
+                                </hlword>
+                                Музыкой всегда есть что послушать!
+                            </passage>
+                        </passages>
+                        <properties>
+                            <_PassagesType>
+                                0
+                            </_PassagesType>
+                            <lang>
+                                ru
+                            </lang>
+                        </properties>
+                    </doc>
+                </group>
+                <group>
+                    <doccount>
+                        1
+                    </doccount>
+                    <relevance priority="all"/>
+                    <doc id="Z0EC44D8C9B2F5033">
+                        <relevance priority="all"/>
+                        <saved-copy-url>
+                            https://yandexwebcache.net/yandbtm?fmode=inject&amp;tm=1658054266&amp;tld=ru&amp;lang=ru&amp;la=1658054016&amp;text=yandex&amp;url=https%3A//music.yandex.ru/album/22756098/track/105914776&amp;l10n=ru&amp;mime=html&amp;sign=8718cb616e9aa7618fcefcc2b6ccde40&amp;keyno=0
+                        </saved-copy-url>
+                        <url>
+                            https://music.yandex.ru/album/22756098/track/105914776
+                        </url>
+                        <domain>
+                            music.yandex.ru
+                        </domain>
+                        <title>
+                            <hlword>
+                                Яндекс
+                            </hlword>
+                            Музыка
+                        </title>
+                        <modtime>
+                            20220717T133327
+                        </modtime>
+                        <size>
+                            1484
+                        </size>
+                        <charset>
+                            utf-8
+                        </charset>
+                        <mime-type>
+                            text/html
+                        </mime-type>
+                        <passages>
+                            <passage>
+                                Сервис
+                                <hlword>
+                                    Яндекс
+                                </hlword>
+                                Музыка может содержать информацию, не предназначенную для несовершеннолетних.
+                            </passage>
+                        </passages>
+                        <properties>
+                            <_PassagesType>
+                                0
+                            </_PassagesType>
+                            <lang>
+                                ru
+                            </lang>
+                        </properties>
+                    </doc>
+                </group>
+                <group>
+                    <doccount>
+                        1
+                    </doccount>
+                    <relevance priority="all"/>
+                    <doc id="Z444FDA0ADFB3AF5F">
+                        <relevance priority="all"/>
+                        <saved-copy-url>
+                            https://yandexwebcache.net/yandbtm?fmode=inject&amp;tm=1658054266&amp;tld=ru&amp;lang=ru&amp;la=1658053888&amp;text=yandex&amp;url=https%3A//vk.com/prekoler%3Ftrackcode%3D5b2c831bjbdsPa-nqzPSw6meiU5RkLQOyQ97BSL-D6faRdbbdEz4YqXttfmiF-jHvuU&amp;l10n=ru&amp;mime=html&amp;sign=a6703a5a4647af9ccc10a92685770b14&amp;keyno=0
+                        </saved-copy-url>
+                        <url>
+                            https://vk.com/prekoler?trackcode=5b2c831bjbdsPa-nqzPSw6meiU5RkLQOyQ97BSL-D6faRdbbdEz4YqXttfmiF-jHvuU
+                        </url>
+                        <domain>
+                            vk.com
+                        </domain>
+                        <title>
+                            преколер! | сотрудничество: narovnarov@mail.ru
+                            <hlword>
+                                Яндекс
+                            </hlword>
+                            .Дзен...
+                        </title>
+                        <modtime>
+                            20220717T133226
+                        </modtime>
+                        <size>
+                            2850
+                        </size>
+                        <charset>
+                            windows-1251
+                        </charset>
+                        <mime-type>
+                            text/html
+                        </mime-type>
+                        <passages>
+                            <passage>
+                                Ссылки 2. Прекольный
+                                <hlword>
+                                    Яндекс
+                                </hlword>
+                                .дзен!
+                            </passage>
+                            <passage>
+                                <hlword>
+                                    Яндекс
+                                </hlword>
+                                .Дзен: www.zen.
+                                <hlword>
+                                    yandex
+                                </hlword>
+                                /prekoler. Телеграм: t.me/narovcomics. cбер для донатов: 4279 3807 7322 2866.
+                            </passage>
+                        </passages>
+                        <properties>
+                            <_PassagesType>
+                                0
+                            </_PassagesType>
+                            <lang>
+                                ru
+                            </lang>
+                        </properties>
+                    </doc>
+                </group>
+                <found priority="phrase">
+                    8029
+                </found>
+                <found priority="strict">
+                    8029
+                </found>
+                <found priority="all">
+                    8029
+                </found>
+                <found-docs priority="phrase">
+                    8177
+                </found-docs>
+                <found-docs priority="strict">
+                    8177
+                </found-docs>
+                <found-docs priority="all">
+                    8177
+                </found-docs>
+                <found-docs-human>
+                    нашёл 8 тыс. ответов
+                </found-docs-human>
+            </grouping>
+        </results>
+    </response>
+</yandexsearch>
