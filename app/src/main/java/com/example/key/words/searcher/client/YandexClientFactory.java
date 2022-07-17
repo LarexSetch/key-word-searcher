@@ -62,7 +62,6 @@ public class YandexClientFactory {
         public void apply(RequestTemplate template) {
             try {
                 semaphore.acquire();
-                logger.error("Acquire");
             } catch (InterruptedException e) {
                 logger.error("Cannot acquire semaphore", e);
             }
@@ -73,7 +72,6 @@ public class YandexClientFactory {
 
         @Override
         public Object decode(Response response, Type type) throws IOException, DecodeException, FeignException {
-            logger.error("Release");
             semaphore.release();
             return decoder.decode(response, type);
         }
@@ -85,7 +83,6 @@ public class YandexClientFactory {
 
         @Override
         public Exception decode(String methodKey, Response response) {
-            logger.error("Release");
             semaphore.release();
 
             return errorDecoder.decode(methodKey, response);

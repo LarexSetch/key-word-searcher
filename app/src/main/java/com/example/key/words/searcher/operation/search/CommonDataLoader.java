@@ -2,10 +2,7 @@ package com.example.key.words.searcher.operation.search;
 
 import com.example.key.words.searcher.client.YandexClient;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 import java.util.function.BiConsumer;
 import java.util.function.BinaryOperator;
 import java.util.function.Function;
@@ -65,7 +62,7 @@ final class CommonDataLoader implements DataLoader {
 
         @Override
         public Set<Characteristics> characteristics() {
-            return Set.of(Characteristics.CONCURRENT);
+            return Collections.singleton(Characteristics.CONCURRENT);
         }
     }
 }

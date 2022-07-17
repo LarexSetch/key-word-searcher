@@ -7,6 +7,7 @@ import lombok.Getter;
 
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -29,7 +30,7 @@ final class UrlDomainCalculator implements Calculator<SearchResult> {
 
         return group.entrySet().stream()
                 .map((entry) -> new Row(
-                                List.of(
+                                Arrays.asList(
                                         entry.getKey().domain,
                                         entry.getKey().query
                                 ),
