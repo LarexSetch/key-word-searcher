@@ -23,7 +23,7 @@ final class UrlDomainCalculator implements Calculator<SearchResult> {
             if (group.containsKey(createKey(searchResult))) {
                 group.get(createKey(searchResult)).incrementAndGet();
             } else {
-                group.put(createKey(searchResult), new AtomicInteger());
+                group.put(createKey(searchResult), new AtomicInteger(1));
             }
         });
 
@@ -63,12 +63,12 @@ final class UrlDomainCalculator implements Calculator<SearchResult> {
     }
 
     private String extractSecondLevelDomain(String domain) {
-        String[] domainParts = domain.split(".");
+        String[] domainParts = domain.split("\\.");
         if (domainParts.length < 2) {
             return "unknown." + domain;
         }
 
-        return domainParts[domainParts.length - 1] + "." + domainParts[domainParts.length - 2];
+        return domainParts[domainParts.length - 2] + "." + domainParts[domainParts.length - 1];
     }
 
     @EqualsAndHashCode
