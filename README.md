@@ -41,3 +41,17 @@ GET /search?query={query}&query={query1}&query={query2}
 }
 
 ```
+
+# Alternative idea of app implementation
+
+Create 2 endpoints:
+1. Submit list of queries and return the identifier of submittion
+2. Another endpoint returns information of prepared data
+
+Pros of another implementation:
+* Do not keep connection request data some times later
+* Easy implement the queue of searching
+
+Cons
+* 2 endpoints it's more complicated than one implementation
+* Addition load for get data
