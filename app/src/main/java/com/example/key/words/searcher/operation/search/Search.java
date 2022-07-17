@@ -5,14 +5,26 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 
 import java.util.List;
-import java.util.Map;
 
 public interface Search {
-    Map<String, Integer> invoke(SearchRequest request) throws BusinessRuleException;
+    SearchResponse invoke(SearchRequest request) throws BusinessRuleException;
 
     @Getter
     @AllArgsConstructor
     class SearchRequest {
         private final List<String> queries;
+    }
+
+    @Getter
+    @AllArgsConstructor
+    class SearchResponse {
+        private final List<Item> items;
+
+        @Getter
+        @AllArgsConstructor
+        static class Item {
+            private final List<String> groupBy;
+            private final Integer count;
+        }
     }
 }

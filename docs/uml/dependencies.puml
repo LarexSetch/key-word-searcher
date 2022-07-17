@@ -28,6 +28,10 @@ class SearchRequest {
 }
 
 class SearchResponse {
+    private List<SearchResponseItem> items
+}
+
+class SearchResponseItem {
     private List<String> groupBy
     private Integer count
 }
