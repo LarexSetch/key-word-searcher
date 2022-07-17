@@ -30,7 +30,7 @@ final class CommonDataLoader implements DataLoader {
                         .map(grouping -> grouping.getGroups().stream()
                                 .map(group -> group.getDocs()
                                         .stream()
-                                        .map(doc -> new SearchResult(doc.getUrl(), query))
+                                        .map(doc -> new SearchResult(doc.getUrl().trim(), query))
                                         .collect(Collectors.toList())
                                 )
                                 .collect(new ResultCollector())

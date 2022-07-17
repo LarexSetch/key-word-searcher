@@ -1,6 +1,7 @@
 package com.example.key.words.searcher.calculator;
 
 import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 
 import java.util.List;
