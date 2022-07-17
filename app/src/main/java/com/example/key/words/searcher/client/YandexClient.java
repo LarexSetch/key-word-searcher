@@ -3,7 +3,6 @@ package com.example.key.words.searcher.client;
 import feign.Headers;
 import feign.Param;
 import feign.RequestLine;
-import lombok.Data;
 import lombok.Getter;
 
 import javax.xml.bind.annotation.XmlElement;
